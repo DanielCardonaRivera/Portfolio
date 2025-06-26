@@ -1,0 +1,23 @@
+.hero-section {
+  position: relative;
+  background-color: #111;
+  overflow: hidden;
+  cursor: none;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), #00f2ff22, transparent 50%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: background-position 0.05s ease-out;
+  z-index: 0;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}

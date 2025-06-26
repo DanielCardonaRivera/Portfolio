@@ -1,0 +1,25 @@
+.hero-section {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  position: relative;
+  width: 100%;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: var(--mouse-y, 50%);
+  left: var(--mouse-x, 50%);
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 80%);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: top 0.1s, left 0.1s;
+  z-index: 0;
+}
+
+.hero-section * {
+  position: relative;
+  z-index: 1;
+}
