@@ -1,10 +1,12 @@
 import { Component, HostListener } from '@angular/core';
+import { RouterModule } from '@angular/router'; 
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  templateUrl: './about.html',
-  styleUrls: ['./about.css']
+  imports: [RouterModule], 
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
   @HostListener('document:mousemove', ['$event'])
@@ -16,4 +18,3 @@ export class AboutComponent {
     root.style.setProperty('--y', `${y}%`);
   }
 }
-

@@ -2,13 +2,28 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import {
+  trigger,
+  transition,
+  style,
+  animate
+} from '@angular/animations';
+
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
   imports: [CommonModule, RouterModule, FormsModule],
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css']
+  styleUrls: ['./portfolio.component.css'],
+  animations: [
+    trigger('fadeIn', [
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate('600ms ease-in', style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class PortfolioComponent {
   proyectos = [
