@@ -1,0 +1,36 @@
+.contact-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  width: 100%;
+}
+
+.alert {
+  text-align: center;
+}

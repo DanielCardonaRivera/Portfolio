@@ -18,3 +18,4 @@ export class AboutComponent {
     root.style.setProperty('--y', `${y}%`);
   }
 }
+

@@ -1,0 +1,22 @@
+<section class="container py-5">
+  <h2 class="text-center mb-5">Blog de Desarrollo</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let post of posts">
+      <div class="card h-100 shadow">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-text">{{ post.summary }}</p>
+          <button class="btn btn-outline-primary mt-auto" (click)="verContenido(post)">
+            Leer más
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="postSeleccionado" class="mt-5 p-4 border rounded bg-light">
+    <h4 class="mb-3">{{ postSeleccionado.title }}</h4>
+    <p>{{ postSeleccionado.content }}</p>
+    <button class="btn btn-secondary btn-sm" (click)="postSeleccionado = null">Cerrar</button>
+  </div>
+</section>

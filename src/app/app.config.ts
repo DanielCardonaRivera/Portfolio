@@ -1,12 +1,11 @@
+import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http'; // Importación 
 import { routes } from './app.routes';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { provideAnimations } from '@angular/platform-browser/animations';
 
-export const appConfig = {
+export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideAnimations() 
-  ],
-  standaloneComponents: [NavbarComponent]
+    provideHttpClient() // Proveedor agregado
+  ]
 };
