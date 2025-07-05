@@ -27,23 +27,23 @@ import {
 })
 export class PortfolioComponent {
   proyectos = [
-    {
-      titulo: 'Proyecto 1',
-      descripcion: 'Este es un ejemplo de proyecto web con Angular.',
-      imagen: 'https://via.placeholder.com/400x200',
-      enlace: 'https://github.com/DanielCardonaRivera/proyecto1'
-    },
-    {
-      titulo: 'Proyecto 2',
-      descripcion: 'Aplicación fullstack con .NET y Angular.',
-      imagen: 'https://via.placeholder.com/400x200',
-      enlace: 'https://github.com/DanielCardonaRivera/proyecto2'
-    },
-    {
-      titulo: 'Proyecto 3',
-      descripcion: 'Sitio web para una fundación con diseño responsivo.',
-      imagen: 'https://via.placeholder.com/400x200',
-      enlace: 'https://github.com/DanielCardonaRivera/proyecto3'
-    }
-  ];
+  {
+    titulo: 'Sitio Fundación Eliseo',
+    descripcion: 'Sitio web con React y Bootstrap para una fundación de ayuda psicológica.',
+    imagen: 'assets/img/Eliseofoundation.jpg',
+    enlace: 'https://github.com/DanielCardonaRivera/Eliseofoundation_Website'
+  },
+  {
+    titulo: 'CRC Website',
+    descripcion: 'Tienda online elegante especializada en chaquetas. Hecho con Angular.',
+    imagen: 'assets/img/CRC.jpg', 
+    enlace: 'https://github.com/DanielCardonaRivera/CRC_Website'
+  },
+  {
+    titulo: 'RLouise Website',
+    descripcion: 'Sitio moderno para venta de pijamas femeninas. Responsive y amigable.',
+    imagen: 'assets/img/RLouise.jpg', 
+    enlace: 'https://github.com/DanielCardonaRivera/RLouise_Website'
+  }
+];
 }
