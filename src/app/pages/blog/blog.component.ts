@@ -15,7 +15,7 @@ export class BlogComponent {
     {
       id: 1,
       title: 'Cómo estructurar un proyecto Angular moderno',
-      summary: 'Explora buenas prácticas para organizar módulos, componentes y servicios para facilitar la escalabilidad y mantenimiento.',
+      summary: 'Explora buenas prácticas para organizar módulos , componentes y servicios para facilitar la escalabilidad y mantenimiento.',
       content: 'Angular permite construir aplicaciones escalables si se estructura correctamente desde el inicio. Se recomienda usar un esquema modular, separar lógica en servicios, y componentes standalone para una mejor gestión.'
     },
     {
