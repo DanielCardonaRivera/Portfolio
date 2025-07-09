@@ -14,9 +14,23 @@
     </div>
   </div>
 
-  <div *ngIf="postSeleccionado" class="mt-5 p-4 border rounded bg-light">
-    <h4 class="mb-3">{{ postSeleccionado.title }}</h4>
-    <p>{{ postSeleccionado.content }}</p>
-    <button class="btn btn-secondary btn-sm" (click)="postSeleccionado = null">Cerrar</button>
+  <div *ngIf="postSeleccionado" class="mt-5 p-5 bg-white rounded shadow-sm">
+    <h3 class="mb-4 text-primary">{{ postSeleccionado.title }}</h3>
+  
+    <img
+      *ngIf="postSeleccionado.image"
+      [src]="postSeleccionado.image"
+      class="img-fluid rounded mb-4"
+      alt="Imagen relacionada al post"
+    />
+  
+    <p *ngFor="let parrafo of dividirParrafos(postSeleccionado.content)" class="mb-3">
+      {{ parrafo }}
+    </p>
+  
+    <button class="btn btn-outline-secondary mt-4" (click)="postSeleccionado = null">
+      ← Volver al blog
+    </button>
   </div>
+  
 </section>

@@ -9,3 +9,30 @@ section h2 {
   font-weight: bold;
   color: #343a40;
 }
+.blog-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.blog-post h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.blog-post p {
+  margin-bottom: 1rem;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
