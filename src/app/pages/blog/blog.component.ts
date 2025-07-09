@@ -63,7 +63,7 @@ export class BlogComponent {
   4. Validación y control de calidad BIM
   A través de scripts, se pueden realizar:
   - Revisiones automáticas de modelos.
-  - Comprobaciones de cumplimiento de estándares BIM.
+  - Comprobaciones de cumplimiento de estándares BIM según los BEP.
   - Reportes de auditoría y coordinación.
   
   Casos de uso comunes en la industria:
@@ -82,8 +82,7 @@ export class BlogComponent {
   Relación con Dynamo y otras herramientas
   Para quienes no son programadores, Dynamo es una herramienta visual que permite usar la API sin escribir código. Es ideal para tareas básicas de automatización. Sin embargo, para flujos más complejos o personalizados, el uso directo de la API con C# o Python brinda mayor control y potencia.
   
-  Conclusión:
-  El uso de la API de Revit representa una evolución natural para las empresas AEC que desean optimizar procesos, reducir errores y avanzar hacia una digitalización más inteligente. Adoptarla no es solo una ventaja técnica, sino una inversión en eficiencia y competitividad.`
+En este sentido, el uso de la API de Revit representa una evolución natural para las empresas AEC que desean optimizar procesos, reducir errores y avanzar hacia una digitalización más inteligente. Adoptarla no es solo una ventaja técnica, sino una inversión en eficiencia y competitividad.`
     },
     {      
         id: 4,
