@@ -1,8 +1,11 @@
-import { Component } from '@angular/core';
+import { Component,HostListener } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from '../../services/contact.service';
+
+
+// (los demás imports como ya los tienes)
 
 @Component({
   selector: 'app-contact',
@@ -22,6 +25,15 @@ export class ContactComponent {
       email: ['', [Validators.required, Validators.email]],
       message: ['', Validators.required],
     });
+  }
+
+  @HostListener('document:mousemove', ['$event'])
+  onMouseMove(event: MouseEvent) {
+    const root = document.documentElement;
+    const x = (event.clientX / window.innerWidth) * 100;
+    const y = (event.clientY / window.innerHeight) * 100;
+    root.style.setProperty('--x', `${x}%`);
+    root.style.setProperty('--y', `${y}%`);
   }
 
   onSubmit(): void {

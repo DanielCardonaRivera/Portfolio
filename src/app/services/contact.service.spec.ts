@@ -12,7 +12,7 @@ export interface ContactForm {
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = 'https://localhost:5025/api/contact'; // Usar el puerto correcto de tu backend
+  private apiUrl = 'https://localhost:5025/api/contact'; // Usar el puerto correcto del backend
 
   constructor(private http: HttpClient) {}
 

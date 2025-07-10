@@ -3,17 +3,19 @@
   background: linear-gradient(135deg, #e0eafc, #cfdef3);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 5vw 35vw;
+  min-width: 500px;
+  justify-content: center;
 }
 
 .contact-section .container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2vw auto;
 }
 
 .contact-section h2 {
   text-align: center;
-  margin-bottom: 30px;
-  font-weight: bold;
+  margin-bottom: 60px;
   color: #333;
 }
 
@@ -33,4 +35,24 @@
 
 .alert {
   text-align: center;
+}
+
+:host {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.background-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 500%;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), #6ec1e4, #1e3c72);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: background-position 0.1s ease;
 }
