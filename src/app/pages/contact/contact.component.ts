@@ -1,16 +1,15 @@
-
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { ContactService } from '../../services/contact.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactService } from '../../services/contact.service';
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, HttpClientModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css'],
+  imports: [CommonModule, ReactiveFormsModule, HttpClientModule],
 })
 export class ContactComponent {
   contactForm: FormGroup;
@@ -33,10 +32,11 @@ export class ContactComponent {
           this.errorMessage = '';
           this.contactForm.reset();
         },
-        error: () => {
+        error: (err) => {
           this.errorMessage = 'Hubo un error al enviar el mensaje.';
           this.successMessage = '';
-        }
+          console.error(err);
+        },
       });
     }
   }
