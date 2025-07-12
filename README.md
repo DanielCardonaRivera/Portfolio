@@ -1,59 +1,84 @@
-# PortfolioDanielcardona
+# Daniel Cardona – Portafolio / Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+Bienvenido(a) al portafolio profesional de Daniel Cardona, desarrollado con Angular y desplegado en GitHub Pages.
 
-## Development server
+Welcome to Daniel Cardona's professional portfolio, built with Angular and deployed via GitHub Pages.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## Navegación / Navigation
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- 🇪🇸 [Versión en Español](#portafolio-profesional---daniel-cardona)
+- 🇬🇧 [English Version](#professional-portfolio--daniel-cardona)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Portafolio Profesional - Daniel Cardona
 
-```bash
-ng generate component component-name
-```
+Este repositorio presenta el portafolio personal de Daniel Cardona, arquitecto y desarrollador frontend con formación en diseño urbano y experiencia en el desarrollo de aplicaciones web modernas. El sitio expone su perfil profesional, proyectos destacados, publicaciones de blog y una sección de contacto funcional.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+El portafolio ha sido desarrollado empleando Angular en su versión más reciente, siguiendo un enfoque de componentes standalone, con Bootstrap para el diseño visual y desplegado mediante GitHub Pages. Se ha implementado enrutamiento para una navegación fluida entre secciones, así como conexión con un backend en .NET para el procesamiento de formularios.
 
-```bash
-ng generate --help
-```
+La finalidad de este proyecto es ofrecer una muestra de competencias técnicas, capacidad de estructuración de interfaces web escalables y sensibilidad por el diseño y la presentación del contenido. Forma parte de un proceso de transición profesional hacia roles de desarrollo frontend, integrando habilidades de diseño adquiridas previamente en el ámbito arquitectónico.
 
-## Building
+🔗 Sitio en línea: [danielcardonarivera.github.io/Portfolio](https://danielcardonarivera.github.io/Portfolio/)
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+### Tecnologías empleadas
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Angular 17+ (con configuración standalone)
+- Bootstrap 5
+- TypeScript
+- HTML5 y CSS3
+- GitHub Pages para despliegue estático
+- .NET (Web API para el formulario de contacto)
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Autor
 
-```bash
-ng test
-```
+**Daniel Cardona Rivera**  
+Arquitecto | Desarrollador Frontend Junior  
+Bogotá, Colombia  
+adcardonar@unal.edu.co
+[LinkedIn](https://www.linkedin.com/in/danielcardonarivera)
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## Professional Portfolio – Daniel Cardona
 
-```bash
-ng e2e
-```
+This repository contains the personal portfolio of Daniel Cardona, an architect and frontend developer with a background in urban design and experience in building modern web applications. The site showcases his professional profile, featured projects, blog posts, and a fully functional contact section.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+The portfolio is built with the latest version of Angular, applying a standalone component architecture, styled using Bootstrap, and deployed via GitHub Pages. It includes client-side routing for smooth navigation between sections and connects to a .NET backend for contact form processing.
 
-## Additional Resources
+This project reflects Daniel's transition into the tech industry, integrating technical development skills with his design-oriented background in architecture. It demonstrates his ability to structure responsive user interfaces, build scalable codebases, and deliver user-centric digital experiences.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Live site: [danielcardonarivera.github.io/Portfolio](https://danielcardonarivera.github.io/Portfolio/)
+
+---
+
+### Technologies Used
+
+- Angular 17+ (standalone configuration)
+- Bootstrap 5
+- TypeScript
+- HTML5 and CSS3
+- GitHub Pages (static deployment)
+- .NET (Web API for contact form integration)
+
+---
+
+### About the Author
+
+**Daniel Cardona Rivera**  
+Architect | Junior Frontend Developer  
+Bogotá, Colombia  
+adcardonar@unal.edu.co
+[LinkedIn](https://www.linkedin.com/in/danielcardonarivera)
+
+---
+
+## Licencia / License
+
+MIT
