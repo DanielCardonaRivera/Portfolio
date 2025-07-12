@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from '../../services/contact.service';
 
 
-// (los demás imports como ya los tienes)
 
 @Component({
   selector: 'app-contact',
